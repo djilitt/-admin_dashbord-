@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="./style.css">
+   
+   
 </head>
 <body>
     <div class="container">
@@ -23,11 +25,11 @@
              </div>  
           </div>
           <div class="sidebar" >
-            <a href="#"  >
+            <a href="#"   class="active">
                 <span class="material-icons-sharp"> dashboard</span>
                 <h3>Acceuil</h3>
             </a>
-            <a href="#" class="active">
+            <a href="#">
                 <span class="material-icons-sharp">location_city</span>
                 <h3>Etablissement</h3>
             </a>
@@ -60,6 +62,166 @@
         </div>
 
       </aside>
+      <!-- ----------------------end of aside-------------------- -->
+      <main>
+        <div class="nav">
+       
+         <div class="date">
+             <input type="date">
+         </div>
+         
+         <div class="right">
+            <div class="top">
+               <button   id="menu-btn">
+                   <span class="material-icons-sharp">menu</span>
+               </button>
+               <div class="theme-toggler">
+                   <span class="material-icons-sharp active ">light_mode</span>
+                   <span class="material-icons-sharp">dark_mode</span>
+               </div>
+               <div class="profile">
+                   <div class="info">
+                       <p>hey,<b>Ahmed</b></p>
+                       <small class="text-muted">Admin</small>
+                   </div>
+                   <div class="profile-photo">
+                       <img src="./images/profile.png">
+                   </div>
+               </div>
+            </div>
+           </div>
+        </div>
+         <div class="insights">
+            <div class="Institutions">
+                <span class="material-icons-sharp">table_chart</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Institutions</h3>
+                        <h1>16</h1>
+                    </div>
+                    <div class="progress">
+                       <svg>
+                        <circle cx="38" cy="38" r="36"></circle>
+                       </svg>
+                       <div class="number">
+                            <p>80%</p>
+                       </div>
+                    </div>
+                </div>
+                <small class="text-muted">
+                    this year
+                </small>
+            </div>
+            <!-- -----------------end of sales----------------------- -->
+            <div class="Professeurs">
+                <span class="material-icons-sharp">groups</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Professeurs</h3>
+                        <h1>200</h1>
+                    </div>
+                    <div class="progress">
+                       <svg>
+                        <circle cx="38" cy="38" r="36"></circle>
+                       </svg>
+                       <div class="number">
+                            <p>50%</p>
+                       </div>
+                    </div>
+                </div>
+                <small class="text-muted">
+                    this year
+                </small>
+            </div>
+              <!-- -----------------end of expensises----------------------- -->
+              <div class="Etudiants">
+                <span class="material-icons-sharp">diversity_3</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Etudiants</h3>
+                        <h1>19844</h1>
+                    </div>
+                    <div class="progress">
+                       <svg>
+                        <circle cx="38" cy="38" r="36"></circle>
+                       </svg>
+                       <div class="number">
+                            <p>50%</p>
+                       </div>
+                    </div>
+                </div>
+                <small class="text-muted">
+                    this year
+                </small>
+            </div>
+              <!-- -----------------end of income----------------------- -->
+              <div class="Bac">
+                <span class="material-icons-sharp">school</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Candidats Bac </h3>
+                        <h1>398444</h1>
+                    </div>
+                    <div class="progress">
+                       <svg>
+                        <circle cx="38" cy="38" r="36"></circle>
+                       </svg>
+                       <div class="number">
+                            <p>50%</p>
+                       </div>
+                    </div>
+                </div>
+                <small class="text-muted">
+                    this year
+                </small>
+            </div>
+             <!-- -----------------end of income----------------------- -->
+         </div>
+         <!-- -----------------------------------end of insights----------------------------------- -->
+         <div class="recent-orders">
+            <h2>Recents Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Product Name </th>
+                        <th> Product Number </th>
+                        <th> Payment</th>
+                        <th> Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85970</td>
+                    <td class="warning">pending</td>
+                    <td class="primary">Details</td>
+                   </tr> 
+                   <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85970</td>
+                    <td class="warning">pending</td>
+                    <td class="primary">Details</td>
+                   </tr> 
+                   <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85970</td>
+                    <td class="warning">pending</td>
+                    <td class="primary">Details</td>
+                   </tr> 
+                   <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85970</td>
+                    <td class="warning">pending</td>
+                    <td class="primary">Details</td>
+                   </tr> 
+                  
+                </tbody>
+            </table>
+            <a href="#">Show ALL</a>
+         </div>
+        </main>
+        <!-- -------------------------end of main-------------------------- -->
     </div>
+    <script src='./index.js'></script>
 </body>
 </html>
